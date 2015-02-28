@@ -294,7 +294,7 @@ public class GuiContainerManager
      */
     public void updateScreen() {
         for (IContainerObjectHandler objectHandler : objectHandlers) {
-            if (objectHanlder != null)
+            if (objectHandler != null)
                 objectHandler.guiTick(window);
         }
     }
